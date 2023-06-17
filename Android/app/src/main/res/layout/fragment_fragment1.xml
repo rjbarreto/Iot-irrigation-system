@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment1">
+
+
+    <TextView
+        android:id="@+id/moistval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="100dp"
+        android:text="0 %" />
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/humval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 g/kg" />
+
+    <TextView
+        android:id="@+id/tempval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:text="0 ºC" />
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/moisttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soil moisture:" />
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/humtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity:" />
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/temptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature:" />
+
+    <TextView
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/lumval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 lux" />
+
+    <TextView
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/lumtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luminosity:" />
+
+</FrameLayout>

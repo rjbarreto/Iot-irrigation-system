@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "858363968454",
+    "firebase_url": "https://iot-garden-d17b7-default-rtdb.firebaseio.com",
+    "project_id": "iot-garden-d17b7",
+    "storage_bucket": "iot-garden-d17b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858363968454:android:ce978d3ea99437023b50c7",
+        "android_client_info": {
+          "package_name": "com.example.smartplantwateringsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858363968454-59ug46og79vfeu2j598pr9eqhfjf92aa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmPsL_UO-2pDP-NhnMGgWdIiHxgp_uFfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858363968454-59ug46og79vfeu2j598pr9eqhfjf92aa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

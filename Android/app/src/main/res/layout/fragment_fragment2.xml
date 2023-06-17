@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--
+        <Button
+            android:id="@+id/water_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="250dp"
+            android:text="Water Plant" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="200dp"
+            android:text="Water plant until moisture level: " />
+
+
+        <EditText
+            android:id="@+id/water_until"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="195dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="10sp" />
+ -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Select ideal soil moisture level: " />
+
+
+    <Button
+        android:id="@+id/select_button"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="170dp"
+        android:text="PUMP" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="185dp"
+        android:text="Water Plant:" />
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        android:layout_width="127dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="85dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="100dp"
+        android:text="0 %" />
+
+
+    <!--android:layout_marginTop="100dp"
+        android:layout_marginLeft="225dp"-->
+
+</FrameLayout>
